@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<data>
+    <variable
+        name="nilu"
+        type="com.example.afinal.BiryaniStoreFragment"
+        />
+</data>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BiryaniStoreFragment">
+
+    <TextView
+        android:id="@+id/Idparadise"
+        android:layout_width="230sp"
+        android:layout_height="49sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/aclonica"
+        android:text="Paradise"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/addPradise"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="85sp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subPradise"
+        android:layout_width="48sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="85sp"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textBismi"
+        android:layout_width="230sp"
+        android:layout_height="49sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="150sp"
+        android:fontFamily="@font/aclonica"
+        android:text="Bismi"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/addBismi"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="215sp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subBismi"
+        android:layout_width="48sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="215sp"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textNizam"
+        android:layout_width="230sp"
+        android:layout_height="49sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="280sp"
+        android:fontFamily="@font/aclonica"
+        android:text="Nizam's"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/addNizam"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="345sp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subNizam"
+        android:layout_width="48sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="345sp"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/biryaniRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="450sp"
+        android:background="@android:color/white"
+        android:text="RECIPE"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/IMGparadise"
+        android:layout_width="162sp"
+        android:layout_height="118sp"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/paradise" />
+
+    <ImageView
+        android:id="@+id/imgBismi"
+        android:layout_width="162sp"
+        android:layout_height="118sp"
+        android:layout_marginTop="150sp"
+        android:src="@drawable/bismi" />
+
+    <ImageView
+        android:id="@+id/imgNizam"
+        android:layout_width="162sp"
+        android:layout_height="118sp"
+        android:layout_marginTop="280sp"
+        android:src="@drawable/nizams" />
+
+    <TextView
+        android:id="@+id/numparadise"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="240sp"
+        android:layout_marginTop="85sp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/numBismi"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="240sp"
+        android:layout_marginTop="215sp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/numNizam"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="240sp"
+        android:layout_marginTop="345sp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</FrameLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Khana khazaana</string>
+    <string name="firstpage">List of Dishes</string>
+    <string name="birani_stores">Biryani Stores </string>
+    <string name="samosa_stores">Samosa Stores </string>
+    <string name="panner_stores">Panner Stores </string>
+    <string name="Order">Your Order</string>
+    <string name="Recipe_Biryani">Recipe of Biryani</string>
+    <string name="Recipe_samosa">Recipe of Samosa</string>
+    <string name="Recipe_panner">Recipe of Panner</string>
+
+    <string name="birju">Birju Halwai..</string>
+    <string name="about">
+        <p align="center">Hello Friends</p>\n
+        <p align="left">
+            This application gives facility to order the food.
+            and if you want to cook it then it provide recipe of it.\n</p>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="name">Nilesh walve</string>
+    <string name="biryani"><b>Recipe Name:-</b><font face="Times New Roman" size="35"><u>Chicken Biryani</u></font>\n\n
+                           <b>Indegredient</b>:-\n1 cup whole milk yogurt\nKosher salt\n1/2teaspoon ground turmeric\n2 1/2 pounds bone-in skinless chicken thighs\n
+        1 1/2 cups vegetable oil\n2 large red onions, thinly sliced\n2 cups basmati rice\n8 whole cloves\n7 green cardamom pods\n3 bay leaves\n1/4 teaspoon whole black peppercorns
+        2 large pinches saffron\n1/4 cup whole milk\n1/2 cinnamon stick\n1 teaspoon cumin seeds\n1 tablespoon finely grated ginger\n5 cloves garlic, finely grated
+        2 medium tomatoes, chopped into 1/2-inch pieces\n1/2 cup cilantro leaves\n1/2 cup mint leaves\n\n
+        <b>Recipe:-</b>\n
+        Whisk together the yogurt, 3 tablespoons salt, chili powder and turmeric in a large bowl.Add the chicken and turn to coat. Let sit at room temperature until ready to use, up to 1 hour. (Alternatively, the chicken can be marinated for up to 2 days covered with plastic wrap in the refrigerator.)\n\n
+Meanwhile, heat the oil in a large heavy-bottomed saucepan over high heat until a deep-fry thermometer reaches 350 degrees F. Fry half of the onions, stirring frequently for even cooking, until deep golden brown, 10 to 12 minutes. Transfer them to a paper-towel lined baking sheet to drain. Season with salt and let cool. Let the oil come back up to temperature and repeat with the remaining onions. Reserve the oil.\n\n
+Wash, rinse and drain the rice in a bowl full of cold water until the water is almost clear, about 5 times. Bring the rice, 1/4 cup salt, 4 of the cloves, 3 of the cardamom pods, 1 of the bay leaves, the peppercorns and 3 quarts of water to a boil in a large pot over high heat. Cook for exactly 5 minutes. (The rice will not be completely cooked; it will continue to cook in the oven. Do not cook longer or the rice will get mushy.) Drain and transfer the rice and spices to a medium bowl.\n\n
+Position a rack in the lower third of the oven and preheat to 300 degrees F.\n\n
+Stir together the saffron and milk in a small bowl until combined.\n\n
+Heat 3 tablespoons of the reserved onion oil in a large Dutch oven over medium heat. Add the cinnamon stick, cumin seeds and the remaining 4 cloves, 4 cardamom pods and 2 bay leaves. Cook, stirring frequently, until the spices are very fragrant and beginning to brown, about 1 minute. Add the ginger and garlic and cook, stirring frequently, until very fragrant and beginning to stick to the bottom of the pan, about 1 minute. Add the tomatoes and 1 teaspoon salt and cook, stirring occasionally and scraping the garlic and ginger from the bottom of the pan, until the tomatoes start to break down and most of the liquid has evaporated, 5 to 7 minutes. Stir in 1/2 cup water, bring to a boil and scrape up any bits from the bottom of the pan.\n\n
+Remove the chicken from the marinade and layer on top of the tomatoes. Then sprinkle half the fried onions on top of the chicken. Top with the rice and spices and then drizzle the saffron milk over the rice. Cover the pan and bake until the liquid evaporates, the rice is tender and the chicken is cooked through, 30 to 40 minutes.\n\n
+Let sit covered for 10 minutes, then transfer the biryani to a large serving platter. Top with the remaining fried onions, cilantro and mint leaves.\n\n
+                                  </string>
+    <string name="samosa"><b>Recipe Name:-</b><font face="Times New Roman" size="35"><u>potato Samosa</u></font>\n\n\n
+         <b>Indegredient</b>:-2 cup all purpose flour\n
+1 teaspoon cumin seeds\n
+1 teaspoon ginger\n
+1 teaspoon raisins\n
+2 cup potato\n
+1 teaspoon coriander powder\n
+1 teaspoon red chilli powder\n
+black salt as required\n
+1 teaspoon coriander leaves\n
+2 tablespoon ghee\n
+2 cup refined oil\n
+1/2 teaspoon coriander seeds\n
+1 teaspoon green chilli\n
+1 teaspoon cashews\n
+1 teaspoon cumin powder\n
+1/2 teaspoon garam masala powder\n
+salt as required\n
+1 teaspoon kasoori methi leaves\n
+1 teaspoon carom seeds\n
+1/4 cup water\n\n\n
+            <b>Recipe:-</b>\n
+        <b><i>Step 1 Prepare the masala for potato filling</i></b>\n
+To prepare this delicious dish, prepare the stuffing for samosa by placing a pan on medium flame. Add oil in it and when the oil is hot enough, add cumin seeds in it and let them crackle.\n\n
+        <b><i>Step 2 Add spices and boiled potatoes and cook for a while</i></b>\n
+Immediately, coriander seeds, ginger and green chilli. Saute for a minute and then add chopped cashews and raisins, boiled and mashed potatoes, cumin powder, coriander powder, garam masala powder, red chilli powder, salt to taste, kasoori methi leaves, coriander leaves. Mix well and saute for 2 minutes and your stuffing is ready.\n\n
+    <b><i>Step 3 Prepare the dough for the Samosa.</i></b>
+         to prepare the dough, take a dough kneading plate and combine all-purpose flour along with carom seeds and salt. Mix and then, add ghee and start kneading using a little dough. Make sure the dough turns out to be somewhat firm in its texture. Cover the dough with a muslin cloth and keep aside for about half an hour.\n\n
+    <b><i>Step 4 Roll the dough in small puris and cut into half</i></b>
+Once done, roll out few small-sized balls from the dough. Flatten them further with the help of your palms and then with a rolling pin. Give them a round shape and cut it in half. Now dip your hands in water, fold the edges of the semi-circle in order to give it a cone shape.\n\n
+<b><i>Step 5 Fill the semi-circle with potato filling and deep fry</i></b>
+Take the filling and stuff the prepared mixture in it. Seal the ends properly by pressing the edges lightly with your fingers. Then, heat oil in a pan and deep fry the samosas until they turn golden brown and crispy enough. Serve with tomato ketchup and green chutney. Enjoy it as a tea-time snack.\n\n
+    <strong>Tips:-</strong>\n
+1)To make Samosa the right way, make sure you knead a tight or stiff dough as the soft dough will not yield best results.\n\n
+2)Before kneading the dough, keep it in mind that you do not need to overwork on it and mix the oil with flour at least 5-6 times. This will ensure you have crispy Samosas.\n\n
+3)Another thing you need to understand is that the Samosa dough should be used after resting for a bit. You should keep aside the dough for at least 40-60 minutes.\n\n
+4)While rolling the dough ball, keep it thin and do not use any flour in it. You can use a little oil to roll the ball evenly.\n\n
+5)Always fry the Samosa on low flame irrespective of how much time it is taking to fry. This will also ensure that your samosas are blisters free and cooked from inside.
+    </string>
+    <string name="panner"><b>Recipe Name:-</b><font face="Times New Roman" size="35"><u>masala panner</u></font>\n\n\n
+<b>Indegredient:-</b>\n
+2 tbsp ghee/clarified butter\n
+9 cubes paneer/cottage cheese\n
+1 tsp cumin seeds/jeera\n
+1 bay bay leaf/tej patta\n
+½ inch cinnamon stick/dalchini\n
+1 onion, finely chopped\n
+1 tsp ginger-garlic paste\n
+salt to taste\n
+1 cup tomato pulp\n
+½ tsp turmeric/haldi\n
+½ tsp coriander powder\n
+1 tsp kashmiri red chilli powder/lal mirch powder\n
+¼ tsp cumin powder\n
+½ cup curd/yogurt,whisked\n
+water as required\n
+¼ tsp garam masala\n
+½ tsp kasuri methi/dry fenugreek leaves,crushed\n\n\n
+        <b>Recipe:-</b>\n
+       1) firstly, in a large kadai heat ghee and fry 9 cubes of paneer. keep aside.\n
+2)now in the same ghee, add in cumin seeds, bay bay leaf and cinnamon stick. saute till the spices turn aromatic.\n
+3)furthermore, add in chopped onion and ginger-garlic paste and saute well.\n
+4)additionally, add in tomato pulp and saute till it release oil.\n
+5)now add in turmeric, red chilli powder, coriander powder, cumin powder and salt.\n
+6)saute on low flame till the spices are cooked well.\n
+7)now add water along with whisked curd.\n
+8)mix continuously keeping the flame on low.\n
+9)boil the gravy for 2-3 minutes on low to medium flame.\n
+10)now add in fried paneer cubes.\n
+11)cover and simmer for 2 minutes or till paneer absorbs the spices.\n
+12)now add in garam masala and crushed kasuri methi.\n
+13)finally, mix well and serve paneer masala recipe with roti or rice.\n
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Register</string>
+
+
+</resources>

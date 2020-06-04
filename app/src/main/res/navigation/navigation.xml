@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.afinal.TitleFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/activity_firstpage">
+        <action
+            android:id="@+id/action_titleFragment_to_listDishFragment"
+            app:destination="@id/listDishFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/biryaniRecipeFragment"
+        android:name="com.example.afinal.BiryaniRecipeFragment"
+        android:label="@string/Recipe_Biryani"
+        tools:layout="@layout/fragment_biryani_recipe" />
+    <fragment
+        android:id="@+id/listDishFragment"
+        android:name="com.example.afinal.ListDishFragment"
+        android:label="@string/firstpage"
+        tools:layout="@layout/fragment_list_dish">
+        <action
+            android:id="@+id/action_listDishFragment_to_biryaniStoreFragment"
+            app:destination="@id/biryaniStoreFragment" />
+        <action
+            android:id="@+id/action_listDishFragment_to_samosaStoresFragment"
+            app:destination="@id/samosaStoresFragment" />
+        <action
+            android:id="@+id/action_listDishFragment_to_pannerStoreFragment"
+            app:destination="@id/pannerStoreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/samosaRecipeFragment"
+        android:name="com.example.afinal.SamosaRecipeFragment"
+        android:label="@string/Recipe_samosa"
+        tools:layout="@layout/fragment_samosa_recipe" />
+    <fragment
+        android:id="@+id/pannerRecipeFragment"
+        android:name="com.example.afinal.PannerRecipeFragment"
+        android:label="@string/Recipe_panner"
+        tools:layout="@layout/fragment_panner_recipe" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.afinal.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/biryaniStoreFragment"
+        android:name="com.example.afinal.BiryaniStoreFragment"
+        android:label="@string/birani_stores"
+        tools:layout="@layout/fragment_biryani_store">
+        <action
+            android:id="@+id/action_biryaniStoreFragment_to_biryaniRecipeFragment"
+            app:destination="@id/biryaniRecipeFragment" />
+        <action
+            android:id="@+id/action_biryaniStoreFragment_to_orderFoodFragment"
+            app:destination="@id/orderFoodFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/samosaStoresFragment"
+        android:name="com.example.afinal.SamosaStoresFragment"
+        android:label="@string/samosa_stores"
+        tools:layout="@layout/fragment_samosa_stores">
+        <action
+            android:id="@+id/action_samosaStoresFragment_to_samosaRecipeFragment"
+            app:destination="@id/samosaRecipeFragment" />
+        <action
+            android:id="@+id/action_samosaStoresFragment_to_orderFoodFragment"
+            app:destination="@id/orderFoodFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pannerStoreFragment"
+        android:name="com.example.afinal.PannerStoreFragment"
+        android:label="@string/panner_stores"
+        tools:layout="@layout/fragment_panner_store">
+        <action
+            android:id="@+id/action_pannerStoreFragment_to_pannerRecipeFragment"
+            app:destination="@id/pannerRecipeFragment" />
+        <action
+            android:id="@+id/action_pannerStoreFragment_to_orderFoodFragment"
+            app:destination="@id/orderFoodFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderFoodFragment"
+        android:name="com.example.afinal.OrderFoodFragment"
+        android:label="@string/Order"
+        tools:layout="@layout/fragment_order_food">
+        <argument
+            android:name="plates"
+            app:argType="integer" />
+        <argument
+            android:name="shop"
+            app:argType="string" />
+        <argument
+            android:name="Dish"
+            app:argType="string" />
+    </fragment>
+</navigation>

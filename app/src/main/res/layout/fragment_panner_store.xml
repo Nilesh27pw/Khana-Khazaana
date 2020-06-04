@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="nilu"
+            type="com.example.afinal.PannerStoreFragment"/>
+    </data>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PannerStoreFragment">
+
+    <TextView
+        android:id="@+id/numVisava"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="240sp"
+        android:layout_marginTop="85sp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/numMaratha"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="240sp"
+        android:layout_marginTop="215sp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/numNavydya"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="240sp"
+        android:layout_marginTop="345sp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/visavaText"
+        android:layout_width="230sp"
+        android:layout_height="49sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/aclonica"
+        android:text="Visava"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/addVisava"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="85sp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subVisava"
+        android:layout_width="48sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="85sp"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textmaratha"
+        android:layout_width="230sp"
+        android:layout_height="49sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="160sp"
+        android:fontFamily="@font/aclonica"
+        android:text="Maratha"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/addMaratha"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="215sp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subMaratha"
+        android:layout_width="48sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="215sp"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textnavydya"
+        android:layout_width="230sp"
+        android:layout_height="49sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="290sp"
+        android:fontFamily="@font/aclonica"
+        android:text="Navydya"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/addNavydya"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="345sp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subNavydya"
+        android:layout_width="48sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="345sp"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/pannerRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="227sp"
+        android:layout_marginTop="450sp"
+        android:background="@android:color/white"
+        android:text="RECIPE"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imgVisava"
+        android:layout_width="162sp"
+        android:layout_height="118sp"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/grandvisava" />
+
+    <ImageView
+        android:id="@+id/imgMaratha"
+        android:layout_width="162sp"
+        android:layout_height="118sp"
+        android:layout_marginTop="150sp"
+        android:src="@drawable/grandmaratha" />
+
+    <ImageView
+        android:id="@+id/imgNavydya"
+        android:layout_width="162sp"
+        android:layout_height="118sp"
+        android:layout_marginTop="280sp"
+        android:src="@drawable/navidya" />
+</FrameLayout>
+    </ScrollView>
+</layout>

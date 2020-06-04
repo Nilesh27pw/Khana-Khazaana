@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name= "Nilesh"
+            type ="com.example.afinal.ListDishFragment"/>
+    </data>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+<FrameLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListDishFragment">
+
+    <TextView
+        android:id="@+id/textBiryani"
+        android:layout_width="297dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="100sp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:includeFontPadding="false"
+        android:text="Chiken Biryani"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textSamosa"
+        android:layout_width="297dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Samosa"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textpanner"
+        android:layout_width="297dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Panner"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imgbiryani"
+        android:layout_width="93dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/biryani" />
+
+    <ImageView
+        android:id="@+id/imgsamosa"
+        android:layout_width="96dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/samosa" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="96dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="275dp"
+        android:src="@drawable/panner" />
+</FrameLayout>
+    </ScrollView>
+</layout>

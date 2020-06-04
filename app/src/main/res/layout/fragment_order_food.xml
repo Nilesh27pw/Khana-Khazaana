@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+<data>
+    <variable
+        name="N"
+        type="com.example.afinal.OrderFoodFragment"
+        />
+</data>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<FrameLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderFoodFragment">
+
+    <TextView
+        android:id="@+id/oRder"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="290sp"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="277dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="224sp"
+        android:text="Your Order:-"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+</FrameLayout>
+</ScrollView>
+</layout>

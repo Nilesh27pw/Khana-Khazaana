@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="nilu"
+            type="com.example.afinal.SamosaStoresFragment"
+            />
+    </data>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SamosaStoresFragment">
+
+    <TextView
+        android:id="@+id/numBirju"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="240sp"
+        android:layout_marginTop="85sp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/numNandu"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="240sp"
+        android:layout_marginTop="215sp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/numShahi"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="240sp"
+        android:layout_marginTop="345sp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/addShahi"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="345sp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subShahi"
+        android:layout_width="48sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="345sp"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subNandu"
+        android:layout_width="48sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="215sp"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgBirju"
+        android:layout_width="162sp"
+        android:layout_height="118sp"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/samosastore" />
+
+    <TextView
+        android:id="@+id/textbirju"
+        android:layout_width="230sp"
+        android:layout_height="49sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="sans-serif"
+        android:text="@string/birju"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/addBirju"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="85sp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subBirju"
+        android:layout_width="48sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="85sp"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgNandu"
+        android:layout_width="162sp"
+        android:layout_height="118sp"
+        android:layout_marginTop="150sp"
+        android:src="@drawable/nanduhalwai" />
+
+    <TextView
+        android:id="@+id/textnandu"
+        android:layout_width="230sp"
+        android:layout_height="49sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="150sp"
+        android:fontFamily="sans-serif"
+        android:text="Nandu Halwai.."
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textshahi"
+        android:layout_width="230sp"
+        android:layout_height="49sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="280sp"
+        android:fontFamily="sans-serif"
+        android:text="Shahi Halwaii.."
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/addNandu"
+        android:layout_width="43sp"
+        android:layout_height="28sp"
+        android:layout_marginLeft="163sp"
+        android:layout_marginTop="215sp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imghahi"
+        android:layout_width="162sp"
+        android:layout_height="118sp"
+        android:layout_marginTop="280sp"
+        android:src="@drawable/shahisamosa" />
+
+    <Button
+        android:id="@+id/samosaRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="227sp"
+        android:layout_marginTop="450sp"
+        android:background="@android:color/white"
+        android:text="RECIPE"
+        android:textAlignment="center" />
+
+</FrameLayout>
+    </ScrollView>
+</layout>
